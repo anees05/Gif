@@ -1,0 +1,48 @@
+body{
+    padding: 20px;
+}
+
+
+.topicPanel > .panel-heading{
+    color: #fdfdff;
+    font-weight: bold;
+    background-color: #546a7b;
+    border-color: #546a7b;
+    cursor: pointer;
+}
+
+#addMorePanel> .panel-heading, #teamPanel > .panel-heading, #favPanel > .panel-heading{
+    background-color: #393d3f;
+    border-color: #393d3f;
+    color: #fdfdff;
+}
+
+.resultDiv{
+    float: left;
+    margin: 10px;
+}
+
+.btn{
+    margin: 5px;
+
+}
+
+.btnTopic{
+    background-color: #62929e;
+    border-color: #62929e;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+.clicked, .btnTopic:active, .btnTopic:focus, .btnTopic:hover{
+    background-color: #62929e;
+    border-color: #62929e;
+    filter: brightness(65%);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-style: solid;
+    outline: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

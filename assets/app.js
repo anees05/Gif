@@ -5,7 +5,7 @@ var topicTitle;
 var header = $("#header")
 var sticky = header.offsetTop;
 var colorSwitch = false;
-var topics = ["Manchester United", "Duke Basketball", "Dallas Cowboys ", "Los Angeles Lakers", "Carolina Hurricanes", "New York Yankees"];
+var topics = ["Manchester United", "Duke Basketball", "Carolina Panthers", "Los Angeles Lakers", "Carolina Hurricanes", "New York Yankees"];
 var favorites = [];
 var firstAdd = false;
 var teamFavs = false;
